@@ -1,8 +1,9 @@
-# dreamDEX Perps Builder Bounty: feedback reports (bot-kit perp strategies)
+# dreamDEX Perps Builder Bounty: feedback reports (bot kit, SDK and REST API)
 
-Tested live against Somnia Hideki testnet (chain 50383) on 2026-10-28, dreamdex-bot-kit @ `25798660`
-(perp-core resolves `@somnia-chain/markets-sdk` 0.31.0). Each report is checked against tang-vu, rohan911438,
-swiftbotlab, clatsonhacks and Anto-099-New-State feedback repos, and has a "Related but not duplicate" section.
+Reports 01–05 were tested live against Somnia Hideki testnet (chain 50383) on 2026-10-28, dreamdex-bot-kit @ `25798660`
+(perp-core resolves `@somnia-chain/markets-sdk` 0.31.0). Reports 06–13 are against dreamdex-bot-kit @ `4e75896` /
+`@somnia-chain/markets-sdk` 0.32.1 and the dreamDEX REST API. Each report is deduplicated against 330+ public dreamdex
+repos on GitHub and has a "Related but not duplicate" section.
 
 | # | Title | Severity | Area |
 |---|---|---|---|
