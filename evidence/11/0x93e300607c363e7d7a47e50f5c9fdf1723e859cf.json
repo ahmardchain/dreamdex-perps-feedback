@@ -1,0 +1,15 @@
+{
+ "account": "0x93e300607c363e7d7a47e50f5c9fdf1723e859cf",
+ "indexer": "https://dev.smk.somnia.host/v1/graphql",
+ "openPositionRows": 200,
+ "openMarkets": 200,
+ "fillsSdkSaw": 986,
+ "fillsInHistory": 986,
+ "routerActionsSdkSaw": 13,
+ "routerActionsInHistory": 13,
+ "marketsReturned": 200,
+ "marketsWithWrongCostOrRealized": 0,
+ "sumCostBasisError": "0",
+ "sumRealizedError": "0",
+ "examples": []
+}

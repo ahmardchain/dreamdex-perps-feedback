@@ -1,0 +1,36 @@
+# Report 07 evidence run
+utc:    2026-11-06T01:49:16Z
+kit:    4e75896896e024c03e2033d5920514f249998cd6
+note:   packages/backtest and packages/core are unchanged between 2579866 and 4e75896 (git diff --stat empty); dist built from them
+node:   v24.14.0
+sha256:
+  6ee986588c0f3d0d14196c326db72cc5c78aeffc6f833f9563a1d3fcd821d6a1 *backtest-same-bar-fill.mjs
+  a6c25ebcdeeb5d0930f4c0406e4a218e33916507e98a81d7d920aa89808b7c7a *src/sim/fill-engine.ts
+  7c659e0f06996fa2835bf67306abbcc8332904cc54c8b99573b99e2cc620d053 *src/sim/ledger.ts
+  cfe595dc0970fe8f4acc51a224eb8d0cfa87ced78f61316bd2d56fc3b4e5d3fc *src/sim/sim-pool.ts
+  a37121dab68e50ef8bf799975bbc3bb526564543efaaddc3295eae153a22c3f0 *src/replay/runner.ts
+  758234e762177bed36dda853b76b3ae991e7f5c3fb3b512713db09594ef79186 *dist/sim/fill-engine.js
+  eb6568762533cf16aa89178ac8f9e63669f0a418f05f5afa072dd907bc0031f0 *dist/sim/ledger.js
+
+$ node findings/scripts/backtest-same-bar-fill.mjs <kit>/packages/backtest/dist/index.js
+
+GTC bid @ 91, default mode
+    bot saw bestBid 99.95 / bestAsk 100.05 on bar 0, placed GTC bid @ 91
+    fills: maker buy 1 @ 91 in bar 0
+    totalPnl 9.0000 on a market that opened and closed at 100
+
+PostOnly bid @ 91 (control)
+    bot saw bestBid 99.95 / bestAsk 100.05 on bar 0, placed PostOnly bid @ 91
+    fills: none
+    totalPnl 0.0000 on a market that opened and closed at 100
+
+GTC bid @ 91, --queue-position (control)
+    bot saw bestBid 99.95 / bestAsk 100.05 on bar 0, placed GTC bid @ 91
+    fills: none
+    totalPnl 0.0000 on a market that opened and closed at 100
+
+PostOnly bid @ 91, then a GTC bid @ 50
+    bot saw bestBid 99.95 / bestAsk 100.05 on bar 0, placed PostOnly bid @ 91 + GTC bid @ 50
+    fills: maker buy 1 @ 91 in bar 0
+    totalPnl 9.0000 on a market that opened and closed at 100
+exit 0

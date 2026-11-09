@@ -1,0 +1,72 @@
+{
+ "account": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+ "indexer": "https://dev.smk.somnia.host/v1/graphql",
+ "openPositionRows": 200,
+ "openMarkets": 144,
+ "fillsSdkSaw": 1000,
+ "fillsInHistory": 84946,
+ "routerActionsSdkSaw": 0,
+ "routerActionsInHistory": 0,
+ "marketsReturned": 144,
+ "marketsWithWrongCostOrRealized": 143,
+ "sumCostBasisError": "-13794644151",
+ "sumRealizedError": "2347158967",
+ "examples": [
+  {
+   "market": "0x0000000000000000000000000000000000000000000000000000000000000052",
+   "decimals": 6,
+   "sdk": {
+    "costBasis": "0",
+    "realizedPnl": "0",
+    "unrealizedPnl": "356000000"
+   },
+   "fullHistory": {
+    "costBasis": "123747629",
+    "realizedPnl": "-475249386",
+    "unrealizedPnl": "232252371"
+   }
+  },
+  {
+   "market": "0x0000000000000000000000000000000000000000000000000000000000000051",
+   "decimals": 6,
+   "sdk": {
+    "costBasis": "0",
+    "realizedPnl": "0",
+    "unrealizedPnl": "349000000"
+   },
+   "fullHistory": {
+    "costBasis": "115241501",
+    "realizedPnl": "-322835411",
+    "unrealizedPnl": "233758499"
+   }
+  },
+  {
+   "market": "0x00000000000000000000000000000000000000000000000000000000000000d1",
+   "decimals": 6,
+   "sdk": {
+    "costBasis": "0",
+    "realizedPnl": "0",
+    "unrealizedPnl": "0"
+   },
+   "fullHistory": {
+    "costBasis": "0",
+    "realizedPnl": "-10409000",
+    "unrealizedPnl": "0"
+   }
+  },
+  {
+   "market": "0x000000000000000000000000000000000000000000000000000000000000018f",
+   "decimals": 6,
+   "sdk": {
+    "costBasis": "0",
+    "realizedPnl": "0",
+    "unrealizedPnl": "600000000"
+   },
+   "fullHistory": {
+    "costBasis": "8236000",
+    "realizedPnl": "-59955000",
+    "unrealizedPnl": "591764000"
+   }
+  }
+ ]
+}

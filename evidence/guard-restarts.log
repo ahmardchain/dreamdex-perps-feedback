@@ -1,0 +1,6 @@
+2026-10-28T10:21:52Z RUN 1 start
+2026-10-28T10:23:35Z RUN 1 exit=1 after 103s last: @somnia-chain/markets-sdk: rpc readContract tryGetMarkPrice failed: The request took too long to respond.
+2026-10-28T10:23:35Z RUN 2 start
+2026-10-28T10:31:01Z RUN 2 exit=1 after 446s last: @somnia-chain/markets-sdk: rpc readContract tryGetMarkPrice failed: The request took too long to respond.
+2026-10-28T10:31:02Z RUN 3 start
+2026-10-28T10:51:53Z RUN 3 exit=124 after 1251s last: perp-guard | reduce 25% below 1.5x maintenance, flatten below 1.15x | dry-run true

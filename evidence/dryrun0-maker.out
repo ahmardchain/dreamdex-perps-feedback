@@ -1,0 +1,21 @@
+
+> perp-maker@0.1.0 start
+> tsx src/index.ts
+
+perp-maker on XLM-PERP | 25 USDso per side at 2x | half-spread 15bps skew 10bps | cap 100 USDso | dry-run false
+This bot key (0x9F8E1904B18B035A090FAE49FDeAB94f1B2d6f68) cannot place/cancel/reduce orders for 0xb5Dc75a39A4b174c0B800387146A291eFa8eb051 on XLM-PERP. In the DreamDEX app open the wallet, choose Link a bot, tick Perps and paste this key's address. A market listed after you linked needs the same address added again, which covers the new ones. Check that OWNER_ADDRESS is the account you linked it o
+MarginBank ready: 94.15 unlocked, 0.00 locked, equity 93.36, status Healthy.
+leverage on XLM-PERP is unset for this account; a trading key cannot change it, set it in the app.
+The contract function "placeOrderFor" reverted.
+
+Error: OnlyApprovedContracts()
+ 
+Contract Call:
+  address:   0x74b05b9b8c8f180b53b7891018f3b254b3e658c9
+  function:  placeOrderFor(address owner, bool isBid, uint64 userData, uint256 price, uint256 quantity, uint64 expireTimestampNs, uint8 orderType, uint8 selfMatchingOption, address builder, uint96 builderFeeBpsTimes1k)
+  args:                   (0xb5Dc75a39A4b174c0B800387146A291eFa8eb051, true, 0, 171700000000000000, 1450000000, 3369981766000000000, 3, 0, 0x0000000000000000000000000000000000000000, 0)
+  sender:    0x9F8E1904B18B035A090FAE49FDeAB94f1B2d6f68
+
+Docs: https://viem.sh/docs/contract/simulateContract
+Details: execution reverted
+Version: viem@2.54.1

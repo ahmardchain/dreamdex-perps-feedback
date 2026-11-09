@@ -1,0 +1,22 @@
+# Report 08 evidence run
+utc:    2026-11-06T01:49:18Z
+kit:    4e75896896e024c03e2033d5920514f249998cd6
+note:   packages/backtest and packages/core are unchanged between 2579866 and 4e75896 (git diff --stat empty); dist built from them
+node:   v24.14.0
+sha256:
+  b5f51e6317fd20345ca69b8fcdb12ff8c6e364006d8883fc147c96a30286da5d *backtest-realized-pnl.mjs
+  a6c25ebcdeeb5d0930f4c0406e4a218e33916507e98a81d7d920aa89808b7c7a *src/sim/fill-engine.ts
+  7c659e0f06996fa2835bf67306abbcc8332904cc54c8b99573b99e2cc620d053 *src/sim/ledger.ts
+  cfe595dc0970fe8f4acc51a224eb8d0cfa87ced78f61316bd2d56fc3b4e5d3fc *src/sim/sim-pool.ts
+  a37121dab68e50ef8bf799975bbc3bb526564543efaaddc3295eae153a22c3f0 *src/replay/runner.ts
+  758234e762177bed36dda853b76b3ae991e7f5c3fb3b512713db09594ef79186 *dist/sim/fill-engine.js
+  eb6568762533cf16aa89178ac8f9e63669f0a418f05f5afa072dd907bc0031f0 *dist/sim/ledger.js
+
+$ node findings/scripts/backtest-realized-pnl.mjs <kit>/packages/backtest/dist/index.js
+Run starts with 1 WETH worth 100 (--base 1), sells it at the bid on a flat market:
+  trades 1, totalPnl -0.0500 (equity-based, correct: the spread paid)
+  realizedPnl 99.9500   <- whole sale price booked as profit
+
+Start with 1 unit, buy 1 more @ 100, sell both @ 100 (no fees, no price change):
+  realizedPnl 100.0000   (expected 0)
+exit 0

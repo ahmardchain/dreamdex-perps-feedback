@@ -1,0 +1,2 @@
+computeBinaryPnl   (number, fills only): realized 0  unrealized 60  total 60
+computePositionPnL (bigint, fills+mints): realized -10  unrealized 10  total 0

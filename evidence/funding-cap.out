@@ -1,0 +1,6 @@
+perp-funding on BTC-PERP | enter above 10.00% APR, exit below 3.00% | 50 USDso per entry at 2x, cap 200 | dry-run true
+watching 0x8239544DB8718D75111e4AEedc42036742D22E68 read-only: set PRIVATE_KEY to the bot key linked to it to trade
+MarginBank ready: 750763.38 unlocked, 0.00 locked, equity 720451.38, status Healthy.
+leverage on BTC-PERP is unset for this account; a trading key cannot change it, set it in the app.
+funding 157.152% APR, paying shorts | holding short 3863193.63 USDso
+funding 157.152% APR, paying shorts | holding short 3861274.15 USDso

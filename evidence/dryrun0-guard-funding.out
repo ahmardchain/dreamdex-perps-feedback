@@ -1,0 +1,18 @@
+=== perp-guard DRY_RUN=false 2026-10-28T10:03:14Z
+perp-guard | reduce 25% below 1.5x maintenance, flatten below 1.15x | dry-run false
+This bot key (0x9F8E1904B18B035A090FAE49FDeAB94f1B2d6f68) cannot trade for 0xb5Dc75a39A4b174c0B800387146A291eFa8eb051 on any perp market. In the DreamDEX app open the wallet, choose Link a bot, tick Perps and paste this key's address.
+=== perp-guard DRY_RUN=0 2026-10-28T10:03:26Z
+perp-guard | reduce 25% below 1.5x maintenance, flatten below 1.15x | dry-run false
+This bot key (0x9F8E1904B18B035A090FAE49FDeAB94f1B2d6f68) cannot trade for 0xb5Dc75a39A4b174c0B800387146A291eFa8eb051 on any perp market. In the DreamDEX app open the wallet, choose Link a bot, tick Perps and paste this key's address.
+XLM-PERP: long 54 (9.28 USDso) | health 2.760x maintenance | status Healthy
+XLM-PERP: long 54 (9.28 USDso) | health 2.760x maintenance | status Healthy
+=== perp-funding DRY_RUN=false 2026-10-28T10:03:52Z
+perp-funding on XLM-PERP | enter above 5.00% APR, exit below 3.00% | 50 USDso per entry at 2x, cap 200 | dry-run false
+This bot key (0x9F8E1904B18B035A090FAE49FDeAB94f1B2d6f68) cannot place/cancel/reduce orders for 0xb5Dc75a39A4b174c0B800387146A291eFa8eb051 on XLM-PERP. In the DreamDEX app open the wallet, choose Link a bot, tick Perps and paste this key's address. A market li
+=== perp-funding DRY_RUN=0 2026-10-28T10:04:05Z
+perp-funding on XLM-PERP | enter above 5.00% APR, exit below 3.00% | 50 USDso per entry at 2x, cap 200 | dry-run false
+This bot key (0x9F8E1904B18B035A090FAE49FDeAB94f1B2d6f68) cannot place/cancel/reduce orders for 0xb5Dc75a39A4b174c0B800387146A291eFa8eb051 on XLM-PERP. In the DreamDEX app open the wallet, choose Link a bot, tick Perps and paste this key's address. A market li
+MarginBank ready: 94.15 unlocked, 0.00 locked, equity 93.28, status Healthy.
+leverage on XLM-PERP is unset for this account; a trading key cannot change it, set it in the app.
+funding 10.950% APR, paying shorts | holding long 9.28 USDso
+closing: funding flipped against this side

@@ -1,0 +1,32 @@
+2026-10-28T10:01:52.895Z account=0xb5dc75a39a4b174c0b800387146a291efa8eb051 positions at start=["VVV/USDso:USDso:short:0.88","1000PEPE/USDso:USDso:long:8100","PUMP/USDso:USDso:short:6000","ZEC/USDso:USDso:long:0.036","TAO/USDso:USDso:short:0.264","WLD/USDso:USDso:short:52","NEAR/USDso:USDso:long:5.1","XLM/USDso:USDso:long:54","AVAX/USDso:USDso:long:4.2","LINK/USDso:USDso:short:2.7","SUI/USDso:USDso:short:13","ADA/USDso:USDso:long:92","BNB/USDso:USDso:long:0.014","DOGE/USDso:USDso:long:480","XRP/USDso:USDso:long:6.9","HYPE/USDso:USDso:long:0.24","ETH/USDso:USDso:long:0.004","BTC/USDso:USDso:short:0.00052"]
+2026-10-28T10:01:52.896Z block=35285402 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:02:07.777Z block=35285552 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:02:22.270Z block=35285696 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:02:36.837Z block=35285842 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:02:51.219Z block=35285986 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:03:06.437Z block=35286139 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:03:20.992Z block=35286284 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:03:35.485Z block=35286429 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:03:49.993Z block=35286576 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:04:04.898Z block=35286725 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:04:19.662Z block=35286870 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:04:34.053Z block=35287015 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:04:48.552Z block=35287159 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:05:03.281Z block=35287307 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:05:18.450Z block=35287458 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:05:32.847Z block=35287603 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:05:48.247Z block=35287757 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:06:02.726Z block=35287903 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:06:17.935Z block=35288052 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:06:32.535Z block=35288199 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:06:47.139Z block=35288344 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:07:01.984Z block=35288493 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:07:17.510Z block=35288650 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:07:32.270Z block=35288796 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:07:47.133Z block=35288945 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:08:01.782Z block=35289090 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:08:16.509Z block=35289243 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:08:31.500Z block=35289389 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:08:46.241Z block=35289535 indexReverts=[] fetchPositions: ok 18 positions
+2026-10-28T10:09:00.972Z block=35289682 indexReverts=[] fetchPositions: ok 18 positions
+EXIT 0

@@ -1,0 +1,23 @@
+2026-10-28T09:54:20.575Z markets=21
+ZRO-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=1.7414080280620001 liveMark=1.729433674045 baseDec=18 quoteDec=18 active=true
+LIT-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=3.037268466178 liveMark=3.077441767207 baseDec=18 quoteDec=18 active=true
+VVV-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=23.760610808625 liveMark=23.935547193995003 baseDec=18 quoteDec=18 active=true
+1000PEPE-PERP  row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.004946168898 liveMark=0.005013498428 baseDec=18 quoteDec=18 active=true
+PUMP-PERP      row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.004346946582 liveMark=0.004351963078 baseDec=6 quoteDec=18 active=true
+ZEC-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=1315.739387992632 liveMark=1315.621895610119 baseDec=8 quoteDec=18 active=true
+TAO-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=257.30561871020797 liveMark=257.0206053705905 baseDec=9 quoteDec=18 active=true
+WLD-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.437300673954 liveMark=0.4373970083865 baseDec=18 quoteDec=18 active=true
+NEAR-PERP      row=73.290%/short win=28800s int=3600s | pool=73.290%/short win=28800s int=3600s known=true | rowMark=4.730639272439 liveMark=4.7120435641505 baseDec=24 quoteDec=18 active=true
+XLM-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.171653626054 liveMark=0.1718029722205 baseDec=7 quoteDec=18 active=true
+AVAX-PERP      row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=9.019232746535 liveMark=9.0222972336255 baseDec=18 quoteDec=18 active=true
+LINK-PERP      row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=11.785890008708 liveMark=11.834331443076499 baseDec=18 quoteDec=18 active=true
+SUI-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.9406834486089999 liveMark=0.942008999219 baseDec=9 quoteDec=18 active=true
+ADA-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.207137166712 liveMark=0.207142031378 baseDec=6 quoteDec=18 active=true
+BNB-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=749.2051923445599 liveMark=752.4304700218185 baseDec=18 quoteDec=18 active=true
+DOGE-PERP      row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=0.080112684289 liveMark=0.080273158579 baseDec=8 quoteDec=18 active=true
+XRP-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=1.33128210884 liveMark=1.327707954199 baseDec=6 quoteDec=18 active=true
+HYPE-PERP      row=-195.413%/long win=28800s int=3600s | pool=-195.413%/long win=28800s int=3600s known=true | rowMark=81.82242752994301 liveMark=82.1285694899565 baseDec=6 quoteDec=18 active=true
+SOL-PERP       row=62.432%/short win=28800s int=3600s | pool=62.432%/short win=28800s int=3600s known=true | rowMark=102.64595105890649 liveMark=102.64649994672651 baseDec=9 quoteDec=18 active=true
+ETH-PERP       row=10.950%/short win=28800s int=3600s | pool=10.950%/short win=28800s int=3600s known=true | rowMark=2369.240300790189 liveMark=2366.0217702693985 baseDec=18 quoteDec=18 active=true
+BTC-PERP       row=157.152%/short win=28800s int=3600s | pool=157.152%/short win=28800s int=3600s known=true | rowMark=81377.83929265253 liveMark=81344.5021775981 baseDec=8 quoteDec=18 active=true
+distinct marginBanks: [ '0x478769e1177c0773c43a593dccc4ad15f15f1394' ]

@@ -1,0 +1,40 @@
+perp-guard | reduce 25% below 5x maintenance, flatten below 1x | dry-run true
+ZRO-PERP: long 5.1 (8.85 USDso) | health 2.711x maintenance | status Healthy
+health 2.711 is below the reduce threshold, closing 25%
+close skipped: 25% of 5.1 ZRO is below the market minimum of 5.1. Close the whole position, or raise the fraction.
+LIT-PERP: short 8.4 (25.73 USDso) | health 2.411x maintenance | status Healthy
+health 2.411 is below the reduce threshold, closing 25%
+close skipped: 25% of 8.4 LIT is below the market minimum of 2.8. Close the whole position, or raise the fraction.
+VVV-PERP: short 0.88 (21.32 USDso) | health 2.411x maintenance | status Healthy
+health 2.411 is below the reduce threshold, closing 25%
+close skipped: 25% of 0.88 VVV is below the market minimum of 0.44. Close the whole position, or raise the fraction.
+1000PEPE-PERP: short 10800 (53.87 USDso) | health 2.262x maintenance | status Healthy
+health 2.262 is below the reduce threshold, closing 25%
+[dry-run] would place guard reduce long 2700 1000PEPE @ 0.0050065
+ZEC-PERP: long 0.045 (59.23 USDso) | health 2.106x maintenance | status Healthy
+health 2.106 is below the reduce threshold, closing 25%
+[dry-run] would place guard reduce short 0.011 ZEC @ 1313.444
+TAO-PERP: long 0.176 (45.20 USDso) | health 2.079x maintenance | status Healthy
+health 2.079 is below the reduce threshold, closing 25%
+[dry-run] would place guard reduce short 0.044 TAO @ 256.085
+WLD-PERP: short 26 (11.35 USDso) | health 2.232x maintenance | status Healthy
+health 2.232 is below the reduce threshold, closing 25%
+close skipped: 25% of 26 WLD is below the market minimum of 26. Close the whole position, or raise the fraction.
+NEAR-PERP: long 5.1 (23.98 USDso) | health 2.306x maintenance | status Healthy
+health 2.306 is below the reduce threshold, closing 25%
+close skipped: 25% of 5.1 NEAR is below the market minimum of 5.1. Close the whole position, or raise the fraction.
+XLM-PERP: short 108 (18.54 USDso) | health 2.549x maintenance | status Healthy
+health 2.549 is below the reduce threshold, closing 25%
+close skipped: 25% of 108 XLM is below the market minimum of 54. Close the whole position, or raise the fraction.
+AVAX-PERP: short 1.4 (12.63 USDso) | health 2.549x maintenance | status Healthy
+health 2.549 is below the reduce threshold, closing 25%
+close skipped: 25% of 1.4 AVAX is below the market minimum of 1.4. Close the whole position, or raise the fraction.
+LINK-PERP: long 4.5 (53.26 USDso) | health 2.886x maintenance | status Healthy
+health 2.886 is below the reduce threshold, closing 25%
+[dry-run] would place guard reduce short 1.1 LINK @ 11.795
+ADA-PERP: short 92 (19.07 USDso) | health 2.699x maintenance | status Healthy
+health 2.699 is below the reduce threshold, closing 25%
+close skipped: 25% of 46 ADA is below the market minimum of 46. Close the whole position, or raise the fraction.
+BNB-PERP: long 0.056 (42.26 USDso) | health 2.699x maintenance | status Healthy
+health 2.699 is below the reduce threshold, closing 25%
+[dry-run] would place guard reduce short 0.014 BNB @ 753.479
